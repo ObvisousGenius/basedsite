@@ -1,0 +1,122 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+body {
+	justify-content: center;
+	height: 100vh;
+	background: #1C1C1C;
+	background-size: cover;
+	align-items: center;
+}
+
+.header__menu {
+	display: flex;
+	height: 300px;
+	width: 100%;
+	background: rgb(38, 38, 38, .5);
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+
+.header__menu__container {
+	padding: 100px;
+	
+}
+
+.header__menu__container p {
+	font-size: 20px;
+	margin: 10px;
+	opacity: 0px;
+}
+
+.container {
+	display: flex;
+}
+
+.container p {
+	font-size: 20px;
+	margin: 20px;
+	opacity: 0px;
+}
+
+.rarecard {
+	height: 700px;
+	width: 350px;
+	margin: 50px;
+	box-shadow: 1px 1px 10px yellow;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background: rgb(27, 27, 27, .5);
+	color: white;
+}
+
+.rarecard h1{
+	border-bottom: 1px solid yellow;
+}
+
+.redcard {
+	height: 700px;
+	width: 350px;
+	margin: 50px;
+	box-shadow: 1px 1px 10px red;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background: rgb(27, 27, 27, .5);
+	color: white;
+}
+
+.redcard h1{
+	border-bottom: 1px solid red;
+}
+img {
+	height: 400px;
+	width: 350px;
+	border-radius: 10px 10px 0 0;
+}
+.rarecard h1 {
+	font-size: 35px;
+	margin: 20px;
+}
+
+.redcard h1 {
+	font-size: 35px;
+	margin: 20px;
+}
+
+span {
+	font-weight: bold;
+}
+
+.footer__menu {
+	justify-content: center;
+	height: 100px;
+	width: 100%;
+	background: rgb(38, 38, 38, .5);
+	align-items: center;
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+	
+}
+
+.footer__list {
+	list-style: none;
+	display: flex;
+	padding: 30px;
+	gap: 30px;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer__menu a {
+	color: lightgray;
+	outline: none;
+    text-decoration: none;
+}
+
+.footer__menu a:hover {
+	color: red;
+}
